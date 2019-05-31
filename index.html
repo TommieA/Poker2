@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html>
+    <head>  
+        <title>Poker</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+            <form>
+                <input type="text" placeholder="Name Player 1" id="inputP1Name" value="Player 1"> 
+                <input type="text" placeholder="Name Player 2" id="inputP2Name" value="Player 2">
+            </form>
+
+            <p id=p1Score>0</p>
+            <p id=p2Score>0</p>
+
+            <div id="showP1Cards">
+                <div id="p1Card0"></div>
+                <div id="p1Card1"></div>
+                <div id="p1Card2"></div>
+                <div id="p1Card3"></div>
+                <div id="p1Card4"></div>
+            </div>
+            
+            <div id="showP2Cards">
+                <div id="p2Card0"></div>
+                <div id="p2Card1"></div>
+                <div id="p2Card2"></div>
+                <div id="p2Card3"></div>
+                <div id="p2Card4"></div>
+            </div>
+
+            <div id=message></div>
+
+            <button id="deal">Deal</button>
+            <button id="draw">Draw</button>
+                
+            <button id="p1Win">Win</button>
+            <button id="p2Win">Win</button>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+            <script src="js/app.js"></script> 
+        </body>
